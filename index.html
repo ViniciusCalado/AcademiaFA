@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Criando um site responsivo com HTML, CSS e JavaScript</title>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+</head>
+<body>
+<!-------------------------------------------- barra de navegação ---------------------------------------------------->
+
+<div class="navbar">
+    <a href="#" class="logo">F<B>A</B>.</a>
+    <div class="toggle" onclick="navToggle();"></div>
+    <ol>
+        <li><a href="#home" onclick="navToggle();">home</a></li>
+        <li><a href="#sobre" onclick="navToggle();">sobre</a></li>
+        <li><a href="#rotina" onclick="navToggle();">rotina</a></li>
+        <li><a href="#treinadores" onclick="navToggle();">treinadores</a></li>
+        <li><a href="#dieta" onclick="navToggle();">dietas</a></li>
+        <li><a href="#contato" onclick="navToggle();">contato</a></li>
+    </ol>
+</div>
+
+<!------------------------------------------------ sessão home ------------------------------------------------------->
+
+<section id="home" class="home view">
+    <div class="highlights">
+        <h3>sinta o poder com</h3>
+        <h1><b>FIT</b>APEX</h1><br>
+        <p class="tagline">
+            Lorem ipsum dolor sit amet. Est consequuntur quae id possimus possimus aut sint voluptatem. Et corporis soluta quo quaerat asperiores aut exercitationem omnis ut commodi temporibus id quas quis aut mollitia rerum.
+        </p>
+        <button class="join">matricule-se!</button>
+    </div>
+    <div class="banner"></div>
+</section>
+
+<!------------------------------------------------ sessão sobre ------------------------------------------------------>
+<section id="sobre" class="sobre view">
+    <div class="main">
+        <h2><span>S</span>obre nós</h2>
+        <h6>Non rerum architecto aut facilis repudiandae qui blanditiis impedit non rerum autem.</h6>
+    </div>
+    <div class="content">
+        <div class="cols">
+            <p><b>E</b>t distinctio galisum sed suscipit voluptas sit dolorum perferendis qui illum nisi ut quia accusantium eos eligendi aliquam. Ut alias labore in velit optio cum distinctio ipsa et necessitatibus adipisci. Et nesciunt pariatur aut soluta harum ut ipsum eaque hic totam eligendi aut placeat veniam in maxime iure non nihil enim. Ut veritatis quas hic illum quia est beatae repellendus et quia iusto hic incidunt obcaecati sit facilis molestiae qui velit explicabo. 
+            Eos commodi voluptatum et voluptas earum sed internos maiores et minima adipisci aut voluptates nostrum ea provident fuga sit quam commodi. Id voluptas suscipit est quos sint sit minima excepturi ut enim voluptas qui doloribus sint et error sint ut doloremque placeat.</p>
+            <a href="#">more</a>
+        </div>
+        <div class="cols">
+            <div class="box">
+                <img src="/img/About.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!----------------------------------------------- sessão Rotina ----------------------------------------------------->
+
+<section id="rotina" class="rotina view">
+    <div class="main">
+        <h2><span>R</span>otina</h2>
+        <h6>Non rerum architecto aut facilis repudiandae qui blanditiis impedit non rerum autem.</h6>
+    </div>
+
+    <div class="content">
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout1.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout2.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout3.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout4.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout5.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/workout6.jpg" alt="">
+            </div>
+            <div class="title">alguns famosos</div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+        </div>
+    </div>
+</section>
+    <!-------------------------------- sessão treinadores ----------------------------------------------->
+<section id="treinadores" class="treinadores view">
+    <div class="main">
+        <h2><span>M</span>elhores<span> T</span>reinadores</h2>
+        <h6>Non rerum architecto aut facilis repudiandae qui blanditiis impedit non rerum autem.</h6>
+    </div>
+
+    <div class="content">
+        <div class="frame">
+            <div class="box">
+                <img src="/img/trainer1.jpg" alt="">
+            </div>
+            <div class="headline">
+                <div class="title">alguns famosos</div>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/trainer2.jpg" alt="">
+            </div>
+            <div class="headline">
+                <div class="title">alguns famosos</div>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/trainer3.jpg" alt="">
+            </div>
+            <div class="headline">
+                <div class="title">alguns famosos</div>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+
+        <div class="frame">
+            <div class="box">
+                <img src="/img/trainer4.jpg" alt="">
+            </div>
+            <div class="headline">
+                <div class="title">alguns famosos</div>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, ea consectetur explicabo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    </div>
+</section>
+<!------------------------sessaão dieta----------------------------->
+<section id="dieta" class="dieta view">
+    <div class="main">
+        <h2><span>D</span>ieta<span> S</span>uplementar</h2>
+        <h6>Non rerum architecto aut facilis repudiandae qui blanditiis impedit non rerum autem.</h6>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">frango cozido</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">torradas com salada</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">sementes oleoginosas</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">frutas</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">sucos</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cols a">
+                <div class="heading">proteina</div>
+                <p>Lorem ipsum dolor sit amet. Non esse nulla id provident tenetur At nesciunt voluptas non labore vitae est facere nemo vel perferendis accusantium et nihil iure? Qui corporis fugiat non ratione quia et facere ipsum non esse galisum! Et fugit laudantium quo inventore enim sed quisquam vitae et ipsa magni!<br>
+                Hic reiciendis quia ab voluptatem voluptates est laudantium officiis qui vero architecto eos mollitia reiciendis? Et quos aliquam aut incidunt possimus cum voluptas iste sed fugiat voluptatibus.
+                </p>
+            </div>
+            <div class="cols b">
+                <div class="boxes">
+                    <img src="/img/diet6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------sessão contatos------------------------------>
+<section id="contato" class="contato view">
+    <div class="main">
+        <h2><span>C</span>ontato<span></h2>
+        <h6>Non rerum architecto aut facilis repudiandae qui blanditiis impedit non rerum autem.</h6>
+    </div> 
+    <div class="content">
+        <form>
+            <input type="text" placeholder="Usuario">
+            <input type="email" placeholder="Email">
+            <textarea rows="5" placeholder="Tire suas dúvidas"></textarea>
+            <br>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+        <div class="bgimg"></div>
+    </div>
+</section>
+<!-------------------------- copyright ----------------------------->
+<section class="copyright">
+    &copy; copyright <a href="#">Vinícius Calado</a> 2023 | Todos os direitos reservados.
+</section>
+<!----------------------- Codigo JavaScript ------------------------>
+<script>
+    window.addEventListener('scroll', function(){
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle("sticky", window.scrollY > 50);
+    });
+
+    const togglebar = document.querySelector('.toggle');
+    const menu = document.querySelector('ol');
+
+    function navToggle(){
+        togglebar.classList.toggle("active");
+        menu.classList.toggle("active");
+    }
+</script>
+
+</body> 
+</html>
